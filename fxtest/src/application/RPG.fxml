@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="520.0" prefWidth="598.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RPGController">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="443.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <RadioButton layoutX="14.0" layoutY="56.0" mnemonicParsing="false" text="RadioButton" />
+            <Label fx:id="hogeLabel" layoutX="14.0" layoutY="23.0" text="Label" textAlignment="CENTER" textFill="#ff0303">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <CheckBox layoutX="21.0" layoutY="92.0" mnemonicParsing="false" text="CheckBox" />
+            <TextField fx:id="nameField" layoutX="19.0" layoutY="122.0" onAction="#onClicked" />
+            <Button fx:id="hogebutton" layoutX="118.0" layoutY="27.0" mnemonicParsing="false" onAction="#onClicked" text="Button" />
+            <ImageView fitHeight="177.0" fitWidth="586.0" layoutX="-1.0" layoutY="231.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../メッセージウィンドウ.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="messageLabel" layoutX="34.0" layoutY="245.0" prefHeight="121.0" prefWidth="516.0" text="bettle start sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss" textFill="#b0a430" wrapText="true">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
